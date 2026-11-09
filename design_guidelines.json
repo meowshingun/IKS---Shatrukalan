@@ -1,0 +1,75 @@
+{
+  "app_name": "ShatruKalan: Ancient Indian Warfare & Military Science",
+  "theme": "dark",
+  "archetype": "Luxury / Deep Historical Cinematic (Archetype 5 with Gold & Obsidian Vibe)",
+  "typography": {
+    "heading": {
+      "family": "Playfair Display, serif",
+      "weights": ["400", "600", "700", "900"],
+      "classes": "font-serif tracking-tight"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans, sans-serif",
+      "weights": ["300", "400", "500", "600"],
+      "classes": "font-sans"
+    },
+    "mono": {
+      "family": "JetBrains Mono, monospace",
+      "weights": ["400", "500"],
+      "classes": "font-mono"
+    }
+  },
+  "colors": {
+    "background": "#090A0F",
+    "surface": "#12141C",
+    "surface_elevated": "#1A1D27",
+    "primary": "#D4AF37",
+    "primary_glow": "rgba(212, 175, 55, 0.25)",
+    "accent_rust": "#C55331",
+    "accent_crimson": "#9E2A2B",
+    "text_main": "#F3F4F6",
+    "text_muted": "#9CA3AF",
+    "border": "rgba(212, 175, 55, 0.15)"
+  },
+  "visual_enhancers": {
+    "glowing_cursor": true,
+    "smooth_scrolling": "Lenis momentum scroll",
+    "noise_overlay": true,
+    "glassmorphism": "backdrop-blur-xl bg-[#12141C]/80 border border-[#D4AF37]/20"
+  },
+  "key_functionalities": [
+    "Timeline-led Home dashboard with interactive chronological eras",
+    "15 exhaustive ancient Indian warfare sections with bilingual Hindi/English depth",
+    "Short preview cards with deep-dive modal panels on click",
+    "Interactive Vyuha formation explorer (Chakravyuha, Garuda, Makara, Krauncha)",
+    "Arthashastra Saptanga & Kautilyan Intelligence simulator",
+    "Interactive Weapons & Armour museum showcase",
+    "Military Strategies, Siege Warfare & Naval Traditions deep dive",
+    "Audio-visual atmospheric effects and glowing cursor"
+  ],
+  "image_urls": [
+    {
+      "category": "hero_chariot",
+      "url": "https://images.unsplash.com/photo-1762005662451-b6bbf4d23fd5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwzfHxhbmNpZW50JTIwaW5kaWFuJTIwd2FycmlvciUyMHNjdWxwdHVyZXxlbnwwfHx8fDE3OTQxODU2Njh8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Chariot sculpture at night in golden illumination"
+    },
+    {
+      "category": "temple_carvings",
+      "url": "https://images.unsplash.com/photo-1741836646461-a95d77335f67?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjd8MHwxfHNlYXJjaHw0fHxhbmNpZW50JTIwaW5kaWFuJTIwYXJ0JTIwdGVtcGxlJTIwc2N1bHB0dXJlfGVufDB8fHx8MTc5NDE4NTY3MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Ancient temple wall displaying intricate stone carvings"
+    },
+    {
+      "category": "warrior_statue",
+      "url": "https://images.unsplash.com/photo-1621422747516-240c0f5f987a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwxfHxhbmNpZW50JTIwaW5kaWFuJTIwYXJ0JTIwdGVtcGxlJTIwc2N1bHB0dXJlfGVufDB8fHx8MTc5NDE4NTY3MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Detailed ancient sculptural art with sword and shield motif"
+    }
+  ],
+  "instructions_to_main_agent": "Build a stunning dark-themed React application with custom glowing cursor, smooth scrolling, bilingual Hindi/English descriptions, 15 comprehensive military modules, interactive timeline navigation, detailed popup modals, Vyuha formation visualizer, and immersive audio-visual polish. Use Tailwind CSS with custom gold and obsidian aesthetic. Ensure all interactive elements have data-testid attributes.",
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "DO NOT use complete transparent background in header or overlays",
+    "All interactive elements must include data-testid attributes",
+    "Use sonner for toasts",
+    "Use Generous spacing (p-8, p-12)",
+    "Support dark mode with custom tinted greys"
+  ]
+}
